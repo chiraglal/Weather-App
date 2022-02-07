@@ -5,7 +5,7 @@ var description = document.querySelector(".description");
 var temperature = document.querySelector(".temperature");
 button.addEventListener("click", function () {
   fetch(
-    "http://api.openweathermap.org/data/2.5/weather?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
       inputValue.value +
       "&appid=492363967b2ea8bdb263442ec13439e9"
   )
